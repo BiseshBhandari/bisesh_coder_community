@@ -1,0 +1,350 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color:rgba(242, 243, 245, 1);
+}
+header{
+    margin-left: 20px;
+}
+
+.header{
+    background-color:rgba(255, 255, 255, 1);
+    height: 70px;
+    margin-top: 14px;
+    width: 1500px;
+    border-radius: 10px;
+}
+.logos img{
+    width: 150px;
+    margin-top: -8px;
+   
+}
+nav{
+    display: block;
+    float: right;
+    width: 600px;
+    margin-top: -70px;
+    margin-right: 10px;
+}
+nav ul{
+    display:flex;
+}
+nav ul li{
+    padding: 20px;
+    margin-left: 16px;
+    font-weight: 400;
+    color: rgb(57, 55, 55);
+
+}
+.nav-sub{
+    display: flex;
+    margin-top: -13px;
+    padding: 30px;
+    font-size: 13px;
+}
+.nav-sub p{
+    text-decoration: underline white;
+    padding: 1px;
+    color: rgb(57, 55, 55);
+}
+
+.nav-sub p:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.sub{
+    font-size: 37px ;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+}
+.sub p{
+    color: rgba(98, 105, 111, 1);
+}
+.smallhead{
+    font-size: 13px;
+    display:flex;
+    justify-content: center;
+    padding:4px;   
+}
+.smallhead p{
+    color: rgba(98, 105, 111, 1);
+}
+
+.camera{
+    background-color:blue;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin-top: 190px;
+    margin-left: 90px;
+    border-radius: 10px ;
+}
+.camera i{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    margin-top: 10px;
+}
+
+.left-down{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.left-down i p{
+    font-size: 16px ;
+    margin-left: 9px;
+}
+.left-down i{
+    display: flex;
+    margin: 10px;
+    font-size: 20px;
+    color: rgba(98, 105, 111, 1) ;
+}
+.image{
+    background-color:white;
+    width: 600px;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    margin-left: 400px;
+    margin-top: -275px;
+    border: 1px solid  rgb(109, 105, 105);
+    border-radius: 12px;
+}
+.img{
+    background-color: rgb(144, 148, 151) ;
+    width: 580px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+.head{
+    margin-left: 400px;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 600;
+    color: rgb(76, 76, 230);
+}
+.head-1{
+    margin-left: 400px;
+    margin-top: 10px;
+    padding: 5px;
+    font-weight: 600;
+    color:  rgba(98, 105, 111, 1);
+
+}
+.first, .second, .third, .head-2-p{
+    width: 600px;
+    margin-left: 400px;
+    padding: 5px;
+    font-size: 13px;
+    color:  rgba(98, 105, 111, 1);
+    line-height: 19px;
+}
+.second,.third{
+    margin-top: 10px;
+}
+.searchbar{
+    background-color:white;
+    width: 290px;
+    height: 37px ;
+    display: block;
+    float: right;
+    margin-top: -1060px;
+    margin-right: 180px;
+    border-radius: 9px;
+    border: 1px  solid  rgb(168, 172, 176);
+}
+.searchbar .search{
+    display: block;
+    float: right;
+    background-color: blue;
+    width: 40px;
+    height: 37px;
+    border-bottom-right-radius: 9px;
+    border-top-right-radius: 9px;
+}
+.search i{
+    font-size: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+}
+
+.radio{
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: -950px;
+    margin-right: 245px;
+}
+.one, .two, .three, .four, .five, .six, .seven{
+    display: flex;
+    margin-top: 25px;
+    color:  rgba(98, 105, 111, 1);
+}
+.left-head{
+    margin-top: -980px;
+    margin-right: 300px;
+    float: right;
+}
+.left-head p{
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    color:  rgba(98, 105, 111, 1); 
+}
+
+.radio p{
+    display: block;
+    margin-right: -20px;
+    margin-left: 20px;
+    text-decoration: underline  rgb(217, 220, 224);
+}
+
+.left-head-2{
+    float: right;
+    margin-top: -590px;
+    margin-right: 365px;
+}
+.left-head-2 p{
+    font-weight: 500;
+    color:  rgba(98, 105, 111, 1);
+}
+
+.box-1, .box-2, .box-3{
+    float: right;
+    margin-top: -555px;
+    background-color: white;
+    width: 85px ;
+    height: 70px;
+    border-radius: 12px;
+    border: 1px solid  rgb(158, 163, 167);
+    box-shadow: 0px 0px 3px  rgba(98, 105, 111, 1);
+}
+.box-1{
+    margin-right: 380px;
+}
+.box-2{
+    margin-right: 280px;
+}
+.box-3{
+    margin-right: 180px;
+}
+.box-4, .box-5, .box-6{
+    float: right;
+    margin-top: -465px;
+    background-color: white;
+    width: 85px ;
+    height: 70px;
+    border-radius: 12px;
+    border: 1px solid  rgb(158, 163, 167);
+    box-shadow: 0px 0px 3px  rgba(98, 105, 111, 1);
+}
+.box-4{
+    margin-right: 380px;
+}
+.box-5{
+    margin-right: 280px;
+}
+.box-6{
+    margin-right: 180px;
+}
+.mini-box{
+    display: flex;
+    justify-content: center;
+    margin-top: 6px;
+    margin-left: 6px;
+    width: 73px;
+    height: 59px;
+    background-color: rgb(165, 171, 177);
+    border-radius: 10px;
+}
+
+.left-head-3{
+    float: right;
+    margin-top: -350px;
+    margin-right: 357px;
+}
+.left-head-3 p{
+    font-weight: 500;
+    color:  rgba(98, 105, 111, 1);
+}
+.line{
+    width: 720px;
+    height: 1px ;
+    background-color: rgb(121, 114, 114);
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 280px;
+}
+
+.comment{
+    font-weight: 500;
+    color:rgba(98, 105, 111, 1) ;
+    display: block;
+    margin-left: 280px;
+}
+
+.layer-1{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px ;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    margin-left: 280px;
+    margin-top: 10px;
+}
+.layer-2{
+    background-color: rgb(194, 188, 188);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 70px;
+    border-radius: 10px;
+}
+.layer-2 i{
+    font-size: 50px;
+    color:rgb(116, 120, 123);
+}
+.head-p p{
+    color:rgba(98, 105, 111, 1);
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: -80px;
+    margin-left: 380px;
+}
+.com{
+    margin-top: 34px;
+    width: 630px;
+    font-size: 15px;
+    color:rgba(98, 105, 111, 1);
+    margin-left: 380px;
+}
+.com p{
+    font-size: 14px;
+}
+.reply-line{
+    display: flex;
+    justify-content: space-between;
+    width: 620px;
+    margin-top: 10px;
+    margin-left: 380px;
+    color:rgba(98, 105, 111, 1);
+
+}
